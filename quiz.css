@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  color: white;
+}
+
+.box {
+  margin: 7% auto;
+  background-color: rgba(1, 7, 37, 0.555);
+  padding: 15px 25px;
+  width: 80%;
+  border-radius: 30px;
+}
+
+/*quiz selection page*/
+.quiz-categories,
+.difficulties{
+  margin: 10px;
+  text-align: center;
+}
+.quiz-categories label,
+.difficulties label {
+  font-size: 20px;
+  margin: auto;
+}
+
+#categories,
+#difficulty {
+  border: none;
+  margin: 10px;
+  padding: 15px 20px;
+  color: white;
+  background-color: rgb(29, 119, 89);
+  font-size: 17px;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  width: 80%;
+  text-align: center;
+}
+
+.next-button{
+  border: none;
+  margin: 20px;
+  background-color: rgb(29, 119, 89);
+  padding: 15px 30px;
+  border-radius: 13px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  margin-left: 45%;
+}
+
+/*quiz questions page*/
+.form{
+  padding: 15px;
+}
+fieldset{
+  margin: 30px;
+  width: 90%;
+}
+legend{
+  font-size: 20px;
+  background-color: rgb(29, 119, 89);
+  padding: 10px;
+  border-radius: 10px;
+}
+fieldset label{
+  font-size: 20px;
+}
+.title{
+  font-size: 35px;
+}
+.submit-button{
+  border: none;
+ margin-left: 45%;
+  padding: 15px 20px;
+  background-color: rgb(29, 119, 89);
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+/*results page*/
+.red-cross {
+  width: 15px;
+}
+
+.green-tick {
+  width: 20px;
+}
+
+.icon {
+  margin: 5px;
+}
+
+.answer-info{
+  margin: 10px;
+  font-size: 20px;
+  background-color: rgb(29, 119, 89);
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 79%;
+}
+
+.total-score{
+  font-size: 25px;
+  margin-left: 50%;
+  padding: 10px;
+  background-color: rgb(133, 39, 39);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.home-button{
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: rgb(22, 85, 64);
+  color: white;
+  cursor: pointer;
+}
+
+.home-button:hover{
+  background-color: rgb(133, 39, 39);
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+  .quiz-categories label,
+  .difficulties label,
+  #categories,
+  #difficulty,
+  .next-button,
+  legend,
+  fieldset label,
+  .title,
+  .submit-button,
+  .answer-info,
+  .total-score,
+  .home-button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .quiz-categories label,
+  .difficulties label,
+  #categories,
+  #difficulty,
+  .next-button,
+  legend,
+  fieldset label,
+  .title,
+  .submit-button,
+  .answer-info,
+  .total-score,
+  .home-button {
+    font-size: 0.875rem;
+  }
+}
