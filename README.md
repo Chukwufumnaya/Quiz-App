@@ -4,6 +4,12 @@ A dynamic quiz application that fetches questions and allows users to select dif
 
 ---
 
+## Live Demo
+
+You can see a live demo of this app here https://chukwufumnaya.github.io/Quiz-App/
+
+---
+
 ## Features
 
 * **API-Powered Questions:** Dynamically retrieves a wide array of quiz questions from the [Open Trivia Database (OpenTDB) API](https://opentdb.com/api_config.php)
